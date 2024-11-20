@@ -1,4 +1,4 @@
-main{
+main {
     padding: 5%;
 
     display: flex;
@@ -6,21 +6,21 @@ main{
     justify-content: space-between;
 }
 
-main .main-content{
+main .main-content { 
     display: flex;
     flex-direction: column;
 }
 
-main .main-content h2{
+main .main-content h2 { 
    margin-bottom: 2%;
    font-size: 2.2em;
 }
 
-main .main-content .text{
+main .main-content .text {
     margin-bottom: 10%;
 }
 
-main .main-content .text p{
+main .main-content .text p {
     width: 75%;
     font-size: 1.2em;
     font-weight: 300;
@@ -28,12 +28,12 @@ main .main-content .text p{
 }
 
 /*Cards */
-main .techs .cards-container{
+main .techs .cards-container {
     display: flex;
     align-items: center;
 }
 
-main .techs .cards-container .card{
+main .techs .cards-container .card {
     width: 120px;
     height: 120px;
     padding: 10px;
@@ -50,11 +50,11 @@ main .techs .cards-container .card{
     transition: box-shadow 0.2s ease-in-out;
 }
 
-main .techs .cards-container .card img{
+main .techs .cards-container .card img {
     width: 80%;
 }
 
-main .techs .cards-container .card:hover{
+main .techs .cards-container .card:hover {
     box-shadow: 0px 0px 8px #00e0ff;
 }
 
@@ -64,7 +64,7 @@ main .techs .cards-container .card {
     animation: moveCard 5s ease-in-out infinite;
   }
   
-  @keyframes moveCard{
+  @keyframes moveCard {
     0% {
       transform: translateX(0);
     }
@@ -73,14 +73,14 @@ main .techs .cards-container .card {
     }
 }
 
-main figure{
+main figure {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-main figure img{
+main figure img {
     width: 300px;
     height: 300px;
     border-radius: 150px;
@@ -91,6 +91,6 @@ main figure img{
     transition: 0.2s ease-in-out;
 }
 
-main figure img:hover{
+main figure img:hover {
     box-shadow: 0px 0px 4px #00e0ff;
 }
